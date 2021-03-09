@@ -75,6 +75,15 @@ nav ul li a {
   background-image: url("img/headerpic.jpg");
 }
 
+#welcome-contacts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  font-family: var(--mainfont), sans-serif;
+  background-image: url("img/headerpic.jpg");
+}
+
 /* SECTIONS */
 section {
   min-height: 50vh;
@@ -107,7 +116,7 @@ h2 {
   width: 20%;
   padding: 1.2rem;
   box-shadow: 0 0 1rem #838383;
-  height: fit-content;
+  height: 30%;
   text-align: left;
   font-family: var(--mainfont), sans-serif;
 }
@@ -152,6 +161,7 @@ h2 {
 
 h4 {
   font-size: 1rem;
+  font-family: var(--mainfont), sans-serif;
 }
 
 #container3 {
@@ -296,6 +306,15 @@ h4 {
 }
 .grid-item-9 {
   grid-area: i;
+}
+
+.reachme {
+  height: 50vh;
+  text-align: center;
+  padding: 9rem;
+}
+.reachme h4 {
+  padding-bottom: 1rem;
 }
 
 /* FOOTER */
