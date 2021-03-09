@@ -36,10 +36,7 @@
       rel="stylesheet"
     />
 
-    <script
-      src="https://kit.fontawesome.com/31b34c26b2.js"
-      crossorigin="anonymous"
-    ></script>
+    <!-- font awesome key is deleted -->
 
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -65,11 +62,15 @@
       </nav>
     </header>
     <section id="welcome">
-      <h1>WELCOME TO MY PORTFOLIO!</h1>
+      <div>
+        <h1>WELCOME TO MY PORTFOLIO!</h1>
+        <br />
+        <p id="herobanner-text"></p>
+      </div>
     </section>
     <main>
       <section class="container1">
-        Work
+        <h2>Work</h2>
         <div id="container1">
           <div class="box">
             <img src="img/pict1.jpg" alt="Past picture" class="img" />
@@ -95,7 +96,7 @@
         </div>
       </section>
       <section class="container2">
-        Experience
+        <h2>Experience</h2>
         <img src="img/pict2.jpg" alt="Picture of present" class="image2" />
         <div class="paragraph">
           <p>
@@ -107,67 +108,27 @@
         </div>
       </section>
       <section class="container3">
-        Skills
+        <h2>Skills</h2>
         <div id="container3">
-          <div class="box" id="box">
+          <div class="skill">
             <i class="fab fa-html5"></i>
             <h4>HTML</h4>
-            <div>
-              <input
-                type="range"
-                id="range"
-                name="html"
-                min="0"
-                max="100"
-                value="100"
-                step="10"
-              />
-            </div>
+            <span class="bar"><span class="html"></span></span>
           </div>
-          <div class="box" id="box">
+          <div class="skill">
             <i class="fab fa-css3-alt"></i>
             <h4>CSS</h4>
-            <div>
-              <input
-                type="range"
-                id="range"
-                name="css"
-                min="0"
-                max="100"
-                value="90"
-                step="10"
-              />
-            </div>
+            <span class="bar"><span class="css"></span></span>
           </div>
-          <div class="box" id="box">
+          <div class="skill">
             <i class="fab fa-js-square"></i>
             <h4>JavaScript</h4>
-            <div>
-              <input
-                type="range"
-                id="range"
-                name="js"
-                min="0"
-                max="100"
-                value="60"
-                step="10"
-              />
-            </div>
+            <span class="bar"><span class="js"></span></span>
           </div>
-          <div class="box" id="box">
+          <div class="skill">
             <i class="fab fa-php"></i>
             <h4>PHP</h4>
-            <div>
-              <input
-                type="range"
-                id="range"
-                name="php"
-                min="0"
-                max="100"
-                value="40"
-                step="10"
-              />
-            </div>
+            <span class="bar"><span class="php"></span></span>
           </div>
         </div>
       </section>

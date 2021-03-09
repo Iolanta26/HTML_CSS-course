@@ -34,7 +34,6 @@ const mobMenu = () => {
   }
   if (nav.classList.contains("responsive")) {
     nav.classList.remove("responsive");
-    document.body.style.overflow = "";
   } else {
     nav.classList.add("responsive");
     document.body.style.overflow = "hidden";
@@ -43,3 +42,17 @@ const mobMenu = () => {
 
 buttonBackToTop.addEventListener("click", getToTop);
 buttonMobile.addEventListener("click", mobMenu);
+
+let i = 0;
+var txt = "My name is Iolanta. Future Front-end developer"; /* The text */
+var speed = 60; /* The speed/duration of the effect in milliseconds */
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("herobanner-text").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+typeWriter();
