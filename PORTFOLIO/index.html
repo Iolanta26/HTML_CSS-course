@@ -1,45 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <meta name="author" content="Iolanta" />
+    <meta name="description" content="My first portfolio page" />
+    <meta
+      name="keywords"
+      content="portfolio, web developer, HTML, CSS, JavaScript"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montez&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome key is deleted -->
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
   </head>
   <body>
-    <h1 id="mainpage">My Portfolio</h1>
-    <a href="url">Past</a>
-    <br />
-    <a href="url">Present</a>
-    <br />
-    <a href="url">Future</a>
-    <br />
-    <h2>Past</h2>
-    <img src="pict1.jpg" />
-    <p class="past_text">
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit totam
-      cumque eum quod voluptate dolorem adipisci illo, reprehenderit incidunt?
-      Unde hic molestias obcaecati eum accusantium. Fugit aliquid quia rem
-      officia incidunt minima libero exercitationem animi amet pariatur quo
-    </p>
-    <h2>Present</h2>
-    <img src="pict2.jpg" />
-    <p class="present_text">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat enim,
-      vero atque dolor magni et voluptate, nulla beatae voluptas repellendus
-      facere rerum commodi nostrum quo laborum quibusdam quasi praesentium qui
-      provident corporis! A, repudiandae consequatur repellat amet nam deserunt
-      totam consectetur, ullam, eaque sit reiciendis aliquid cupiditate
-      inventore voluptatem quaerat.
-    </p>
-    <h2>Future</h2>
-    <img src="pict3.jpg" />
-    <p class="future_text">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio id sit
-      eveniet ut nobis excepturi omnis adipisci. Aspernatur molestiae earum
-      architecto, quia iusto aliquid culpa voluptate illo dolorem similique hic
-      eligendi assumenda, doloremque eum sed ab perspiciatis numquam natus unde
-      reprehenderit. Sed modi, blanditiis quas non alias nihil quos optio?
-    </p>
+    <header>
+      <h1 class="logo"><a href="index.html">Yolanda</a></h1>
+
+      <nav>
+        <button id="mobileButton">
+          <span class="material-icons"> menu </span>
+        </button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="Contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="welcome">
+      <div>
+        <h1>WELCOME TO MY PORTFOLIO!</h1>
+        <br />
+        <p id="herobanner-text"></p>
+      </div>
+    </section>
+    <main>
+      <section class="container1">
+        <h2>Work</h2>
+        <div id="container1">
+          <div class="box">
+            <img src="img/pict1.jpg" alt="Past picture" class="img" />
+            <h4>Day Counter</h4>
+            <p>
+              <a href="#">Check the project</a>
+            </p>
+          </div>
+          <div class="box">
+            <img src="img/pict1.jpg" alt="Past picture" class="img" />
+            <h4>Speed Game</h4>
+            <p>
+              <a href="#">Check the project</a>
+            </p>
+          </div>
+          <div class="box">
+            <img src="img/pict1.jpg" alt="Past picture" class="img" />
+            <h4>Jackpot</h4>
+            <p>
+              <a href="#">Check the project</a>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container2">
+        <h2>Experience</h2>
+        <img src="img/pict2.jpg" alt="Picture of present" class="image2" />
+        <div class="paragraph">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit amet
+            vitae neque nulla maiores ex incidunt laborum ess Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Quo saepe reprehenderit ea
+            corporis <a href="#">Read more</a>
+          </p>
+        </div>
+      </section>
+      <section class="container3">
+        <h2>Skills</h2>
+        <div id="container3">
+          <div class="skill">
+            <i class="fab fa-html5"></i>
+            <h4>HTML</h4>
+            <span class="bar"><span class="html"></span></span>
+          </div>
+          <div class="skill">
+            <i class="fab fa-css3-alt"></i>
+            <h4>CSS</h4>
+            <span class="bar"><span class="css"></span></span>
+          </div>
+          <div class="skill">
+            <i class="fab fa-js-square"></i>
+            <h4>JavaScript</h4>
+            <span class="bar"><span class="js"></span></span>
+          </div>
+          <div class="skill">
+            <i class="fab fa-php"></i>
+            <h4>PHP</h4>
+            <span class="bar"><span class="php"></span></span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <button id="backToTop">
+        <span class="material-icons">arrow_upward</span>
+      </button>
+      <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-linkedin"></i>
+        <i class="fas fa-envelope-square"></i>
+      </div>
+      <form>
+        <div class="contactme">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            name="firstname"
+            id="name"
+            placeholder="Your name"
+          />
+        </div>
+        <div class="contactme">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Your email"
+          />
+        </div>
+        <div>
+          <label>Message</label>
+          <textarea
+            class="contactme"
+            name="subject"
+            placeholder="Your text..."
+            style="height: 100px"
+          ></textarea>
+        </div>
+        <button type="submit" class="contactme">SUBMIT</button>
+      </form>
+      <div class="copyright">
+        <p>Copyright &copy; My Website 2021</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
   </body>
 </html>
