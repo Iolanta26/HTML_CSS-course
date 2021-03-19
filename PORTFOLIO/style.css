@@ -93,6 +93,7 @@ section {
 h2 {
   font-size: 2rem;
   font-weight: lighter;
+  margin-left: 1rem;
 }
 
 .container1 {
@@ -130,10 +131,18 @@ h2 {
 }
 
 .paragraph {
+  width: 50%;
   font-family: var(--mainfont), sans-serif;
   font-size: 1rem;
-  margin: 2% 6% 0% 6%;
+  margin-left: 1rem;
   position: relative;
+  transform: translateY(40px);
+  transition: 1s all ease-in-out;
+}
+
+.paragraph-appear {
+  opacity: 1;
+  transform: translateY(0px);
 }
 
 .container2 {
@@ -150,9 +159,14 @@ h2 {
   margin-top: 3rem;
 }
 
+.container2 img {
+  margin-right: 5rem;
+  position: sticky;
+  height: 30vh;
+}
+
 .container3 {
   background-color: #eabfcb;
-
   font-family: "Fredericka the Great", cursive;
   font-size: 2rem;
   font-weight: lighter;
@@ -187,6 +201,7 @@ h4 {
 }
 
 .bar {
+  /* visibility: hidden; */
   background: rgb(25, 22, 63);
   display: block;
   height: 1rem;
