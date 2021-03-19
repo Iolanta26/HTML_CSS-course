@@ -35,7 +35,7 @@ header {
   width: 100%;
   padding: 1rem;
   transition: 0.2s;
-  background-image: url("img/headerpic.jpg");
+  background-image: url("headerpic.jpg");
 }
 
 #mobileButton {
@@ -72,7 +72,7 @@ nav ul li a {
   justify-content: center;
   height: 60vh;
   font-family: var(--mainfont), sans-serif;
-  background-image: url("img/headerpic.jpg");
+  background-image: url("headerpic.jpg");
 }
 
 #welcome-contacts {
@@ -81,7 +81,7 @@ nav ul li a {
   justify-content: center;
   height: 30vh;
   font-family: var(--mainfont), sans-serif;
-  background-image: url("img/headerpic.jpg");
+  background-image: url("headerpic.jpg");
 }
 
 /* SECTIONS */
