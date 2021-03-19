@@ -19,4 +19,4 @@ My first portfolio ever made! Welcome to view it!
 - Contact me form in footer
 - CSS grid gallery
 
-![](/screenshot.png)
+![screenshot of porfolio](/screenshot.png)
