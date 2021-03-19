@@ -18,3 +18,5 @@ My first portfolio ever made! Welcome to view it!
 - Skills with animated progress bars
 - Contact me form in footer
 - CSS grid gallery
+
+![GitHub Logo](/screenshot.png)
